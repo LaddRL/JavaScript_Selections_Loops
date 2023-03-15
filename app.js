@@ -23,3 +23,13 @@ for (let i = 1; i <= 100; i++) {
     }
 
 }
+
+// Exercise 3 Section
+let i = 1;
+const n = 100
+do {
+    
+    console.log(i);
+    i % 2 == 1;
+    i++;
+} while(i <= n)
