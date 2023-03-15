@@ -24,10 +24,10 @@ for (let i = 1; i <= 100; i++) {
 
 }
 
-// Exercise 3 Section
+//Exercise 3 Section
 let i = 1;
 while (i <= 100) {
-    if (1 % 2 !== 0) {
+    if (i % 2 !== 0) {
         console.log(i);
     }
     i++;
@@ -36,15 +36,15 @@ while (i <= 100) {
 i=1
 while (i <= 100) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log('FIZZBUZZ')
+        console.log(`FIZZBUZZ`)
     }
     else if (i % 3 === 0) {
-        console.log('FIZZ')
+        console.log(`FIZZ`)
     }
     else if (i % 5 === 0) {
-        console.log('BUZZ')
-        i++;
+        console.log(`BUZZ`)
     }
+    i++;
 }
 i=1
 do {
@@ -56,10 +56,6 @@ do {
     }
     else if (i % 5 === 0) {
         console.log('BUZZ')
-        i++;
-    }
-    else {
-
     }
     i++;
 } while (1<=100);
